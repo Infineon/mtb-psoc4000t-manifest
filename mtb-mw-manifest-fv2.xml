@@ -1,0 +1,116 @@
+<middleware>
+  <middleware>
+    <name>core-make</name>
+    <id>core-make</id>
+    <uri>https://github.com/Infineon/core-make</uri>
+    <desc><![CDATA[
+        Core Make build system provides the make build files and scripts for building and programming ModusToolbox&#8482; applications.
+        Builds can be run either through a command-line interface (CLI) or through ModusToolbox&#8482; Integrated Development Environment (IDE).<br>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/core-make/blob/master/README.md">Core Make build system README.md</a></li>
+          <li><a href="https://github.com/Infineon/core-make/blob/master/RELEASE.md">Core Make build system RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities></req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.0.0 Beta1 release</num>
+        <commit>release-v3.0.0-Beta1</commit>
+        <desc>3.0.0 Beta1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-pdl-cat2</name>
+    <id>mtb-pdl-cat2</id>
+    <uri>https://github.com/Infineon/mtb-pdl-cat2</uri>
+    <desc><![CDATA[
+    The Peripheral Driver Library (PDL) simplifies software development for Category 2 devices.
+     The PDL integrates device header files, startup code, and low-level peripheral drivers into a single package.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/mtb-pdl-cat2/blob/master/README.md">CAT2 Peripheral Driver Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/mtb-pdl-cat2/blob/master/RELEASE.md">CAT2 Peripheral Driver Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/modules.html">CAT2 Peripheral Driver Library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities>cat2</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.0.0 Beta1 release</num>
+        <commit>release-v2.0.0-Beta1</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>recipe-make-cat2</name>
+    <id>recipe-make-cat2</id>
+    <uri>https://github.com/Infineon/recipe-make-cat2</uri>
+    <desc><![CDATA[
+    PSoC&#8482; 4 Make build recipe provides the make files and scripts for building and programming PSoC&#8482; 4 applications.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/recipe-make-cat2/blob/master/README.md">CAT2 Make build recipe README.md</a></li>
+          <li><a href="https://github.com/Infineon/recipe-make-cat2/blob/master/RELEASE.md">CAT2 Make build recipe RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities>cat2</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.0.0 Beta1 release</num>
+        <commit>release-v2.0.0-Beta1</commit>
+        <desc>2.0.0 Beta1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>core-lib</name>
+    <id>core-lib</id>
+    <uri>https://github.com/Infineon/core-lib</uri>
+    <desc>The Core Library provides device agnostic utilities that all middleware can rely on. This includes a generic result type and some common utility functions.</desc>
+    <category>Core</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>capsense</name>
+    <id>capsense</id>
+    <uri>https://github.com/Infineon/capsense</uri>
+    <desc>Capacitive sensing solution (CapSense) enabling a variety of applications such as touch, gesture and proximity detection.</desc>
+    <category>MCU Middleware</category>
+    <req_capabilities>capsense</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.0.0 Beta1 release</num>
+        <commit>release-v4.0.0-Beta1</commit>
+        <desc>Latest 4.X release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware type="device_data" default_location="global">
+    <name>device-db</name>
+    <id>device-db</id>
+    <uri>https://github.com/Infineon/device-db</uri>
+    <desc>Device database provides device information for project-creator, configurators, and other tools.</desc>
+    <category>Core</category>
+    <req_capabilities></req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.0.0 Beta 1 release</num>
+        <commit>release-v4.0.0-Beta1</commit>
+        <desc>4.0.0 Beta 1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+</middleware>
