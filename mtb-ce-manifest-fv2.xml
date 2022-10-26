@@ -149,7 +149,7 @@
     <name>MSCLP CAPSENSE Low-Power Proximity Tuning</name>
     <id>mtb-example-psoc4-msclp-capsense-low-power-proximity</id>
     <category>Sensing</category>
-    <uri>https://git-ore.aus.cypress.com/repo-staging/mtb-example-psoc4-msclp-capsense-low-power-proximity</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-capsense-low-power-proximity</uri>
     <description><![CDATA[This code example demonstrates how to manually tune a Proximity widget and a low power widget for low power proximity detection in PSoC&#8482; 4 device using MSCLP (5th-generation low-power CAPSENSE&#8482;) and CAPSENSE&#8482; Tuner.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-capsense-low-power-proximity/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp serial_led spi i2c low_power msc_proximity</req_capabilities>
