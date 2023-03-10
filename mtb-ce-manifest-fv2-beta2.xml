@@ -9,8 +9,8 @@
     <req_capabilities>psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>3.0.0 release</num>
@@ -39,9 +39,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-capsense-low-power/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp serial_led msc_button spi i2c low_power lptimer</req_capabilities>
     <versions>
+   <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.1 release</num>
@@ -67,6 +71,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
@@ -90,6 +98,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
@@ -109,8 +121,12 @@
     <req_capabilities>psoc4 msclp serial_led msc_button msc_touchpad spi i2c low_power enclosure lptimer</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.1.0 release</num>
@@ -125,62 +141,5 @@
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
-  </app>
-  <app keywords="psoc4,msclp,capsense,csd,touchpad,tuning,self-capacitance,mtb-flow">
-    <name>MSCLP Self Capacitance Touchpad Tuning</name>
-    <id>mtb-example-psoc4-msclp-self-capacitance-touchpad</id>
-    <category>Sensing</category>
-    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-self-capacitance-touchpad</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a self-capacitance touchpad widget in a PSoC&#8482; 4 device using MSCLP (5th-generation low-power CAPSENSE&#8482;) and CAPSENSE&#8482; Tuner.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-self-capacitance-touchpad/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc4 msclp serial_led msc_touchpad spi i2c low_power</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="psoc4,msclp,capsense,csd,proximity,tuning,self capacitance,low-power,wake on touch,always on,touch,range,wot,led,tune,ratiometric,distance,detection,hover">
-    <name>MSCLP CAPSENSE Low-Power Proximity Tuning</name>
-    <id>mtb-example-psoc4-msclp-capsense-low-power-proximity</id>
-    <category>Sensing</category>
-    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-capsense-low-power-proximity</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a Proximity widget and a low power widget for low power proximity detection in PSoC&#8482; 4 device using MSCLP (5th-generation low-power CAPSENSE&#8482;) and CAPSENSE&#8482; Tuner.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-capsense-low-power-proximity/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc4 msclp serial_led spi i2c low_power msc_proximity</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="psoc4,msclp,capsense,csx,touchpad,tuning,mutual-capacitance,mtb-flow">
-    <name>MSCLP Mutual Capacitance Touchpad Tuning</name>
-    <id>mtb-example-psoc4-msclp-mutual-capacitance-touchpad</id>
-    <category>Sensing</category>
-    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-mutual-capacitance-touchpad</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a mutual-capacitance touchpad widget in a PSoC&#8482; 4 device using MSCLP (5th-generation low-power CAPSENSE&#8482;) and CAPSENSE&#8482; Tuner.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-mutual-capacitance-touchpad/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc4 msclp serial_led msc_touchpad spi i2c low_power</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>1.0.1 release</num>
-        <commit>release-v1.0.1</commit>
-      </version>
-    </versions>
-  </app>
+  </app> 
 </apps>

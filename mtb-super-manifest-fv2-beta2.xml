@@ -1,0 +1,17 @@
+<super-manifest>
+  <board-manifest-list>
+    <board-manifest dependency-url="https://github.com/Infineon/mtb-psoc4000t-manifest/raw/v2.X/mtb-bsp-dependencies-manifest-beta2.xml">
+      <uri>https://github.com/Infineon/mtb-psoc4000t-manifest/raw/v2.X/mtb-bsp-manifest-fv2-beta2.xml</uri>
+    </board-manifest>
+  </board-manifest-list>
+  <app-manifest-list>
+    <app-manifest>
+      <uri>https://github.com/Infineon/mtb-psoc4000t-manifest/raw/v2.X/mtb-ce-manifest-fv2-beta2.xml</uri>
+    </app-manifest>
+  </app-manifest-list>
+  <middleware-manifest-list>
+    <middleware-manifest dependency-url="https://github.com/Infineon/mtb-psoc4000t-manifest/raw/v2.X/mtb-mw-dependencies-manifest-beta2.xml">
+      <uri>https://github.com/Infineon/mtb-psoc4000t-manifest/raw/v2.X/mtb-mw-manifest-fv2-beta2.xml</uri>
+    </middleware-manifest>
+  </middleware-manifest-list>
+</super-manifest>

@@ -1,0 +1,30 @@
+<dependencies>
+  <depender>
+    <id>mtb-pdl-cat2</id>
+    <versions>
+      <version>
+        <commit>release-v2.3.0-Beta2</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v5.8.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>recipe-make-cat2</id>
+    <versions>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.2</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+</dependencies>

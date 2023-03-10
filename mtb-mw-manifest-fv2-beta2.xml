@@ -16,13 +16,33 @@
     <req_capabilities></req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>3.0.0 Beta1 release</num>
-        <commit>release-v3.0.0-Beta1</commit>
-        <desc>3.0.0 Beta1 release</desc>
+        <num>3.0.2 release</num>
+        <commit>release-v3.0.2</commit>
+        <desc>3.0.2 release</desc>
       </version>
     </versions>
   </middleware>
   <middleware>
+    <name>cmsis</name>
+    <id>cmsis</id>
+    <uri>https://github.com/Infineon/cmsis</uri>
+    <desc><![CDATA[
+    CMSIS for PDL: The Common Microcontroller Software Interface Standard (CMSIS) is a vendor-independent abstraction layer for microcontrollers that are based on Arm Cortex processors.
+    CMSIS defines generic tool interfaces and enables consistent device support. The CMSIS software interfaces simplify software reuse, reduce the learning curve for microcontroller developers, and improve time to market for new devices.
+    CMSIS provides interfaces to processor and peripherals, real-time operating systems, and middleware components.
+    CMSIS includes a delivery mechanism for devices, boards, and software, and enables the combination of software components from multiple vendors.
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities></req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>5.8.0 release</num>
+        <commit>release-v5.8.0</commit>
+        <desc>5.8.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware type="device_support">
     <name>mtb-pdl-cat2</name>
     <id>mtb-pdl-cat2</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-pdl-cat2</uri>
@@ -39,10 +59,10 @@
     <category>Core</category>
     <req_capabilities>cat2</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>2.0.0 Beta1 release</num>
-        <commit>release-v2.0.0-Beta1</commit>
-        <desc>Latest 2.X release</desc>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>2.3.0 Beta2 release</num>
+        <commit>release-v2.3.0-Beta2</commit>
+        <desc>2.3.0 Beta2 release</desc>
       </version>
     </versions>
   </middleware>
@@ -62,9 +82,9 @@
     <req_capabilities>cat2</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>2.0.0 Beta1 release</num>
-        <commit>release-v2.0.0-Beta1</commit>
-        <desc>2.0.0 Beta1 release</desc>
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
       </version>
     </versions>
   </middleware>
@@ -77,9 +97,9 @@
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-        <desc>1.3.0 release</desc>
+        <num>1.3.1 release</num>
+        <commit>release-v1.3.1</commit>
+        <desc>1.3.1 release</desc>
       </version>
     </versions>
   </middleware>
@@ -92,13 +112,13 @@
     <req_capabilities>capsense</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>4.0.0 Beta1 release</num>
-        <commit>release-v4.0.0-Beta1</commit>
-        <desc>Latest 4.X release</desc>
+        <num>4.0.0 Beta2 release</num>
+        <commit>release-v4.0.0-Beta2</commit>
+        <desc>4.0.0 Beta2 release</desc>
       </version>
     </versions>
   </middleware>
-  <middleware type="device_data" default_location="global">
+  <middleware type="device_data" hidden="true">
     <name>device-db</name>
     <id>device-db</id>
     <uri>https://github.com/Infineon/device-db</uri>
@@ -107,9 +127,53 @@
     <req_capabilities></req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>4.0.0 Beta 1 release</num>
-        <commit>release-v4.0.0-Beta1</commit>
-        <desc>4.0.0 Beta 1 release</desc>
+        <num>4.0.4 release</num>
+        <commit>release-v4.0.4</commit>
+        <desc>4.0.4 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>dfu</name>
+    <id>dfu</id>
+    <uri>https://github.com/cypresssemiconductorco/dfu</uri>
+    <desc><![CDATA[
+    The Device Firmware Update (DFU) Middleware Library provides a low-level API for the implementation of firmware loader and
+     firmware loadable applications using a number of transport interfaces, e.g. Bluetooth&#174; Low Energy, USB, UART, I2C, SPI.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/dfu/blob/master/README.md">DFU Middleware Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/dfu/blob/master/RELEASE.md">DFU Middleware Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/dfu/dfu_sdk_api_reference_manual/html/modules.html">DFU Middleware Library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>4.20.0 release</num>
+        <commit>release-v4.20.0</commit>
+        <desc>4.20.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware hidden="true">
+    <name>mtb-template-cat2</name>
+    <id>mtb-template-cat2</id>
+    <uri>https://github.com/Infineon/mtb-template-cat2</uri>
+    <desc>CAT2 BSP template files for the BSP Assistant Tool.</desc>
+    <category>Core</category>
+    <req_capabilities>cat2</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>

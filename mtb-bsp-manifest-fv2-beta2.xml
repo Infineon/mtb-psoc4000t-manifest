@@ -1,0 +1,21 @@
+<boards>
+  <board default_location="local">
+    <id>CY8CKIT-040T</id>
+    <category>PSoC™ 4 BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CY8CKIT-040T</board_uri>
+    <chips>
+      <mcu>CY8C4046LQI-T452</mcu>
+    </chips>
+    <name>CY8CKIT-040T</name>
+    <summary>The PSoC&amp;#8482; 4000T CAPSENSE&amp;#8482; Evaluation Kit enables you to evaluate and develop with Cypress's fifth-generation, low-powerCAPSENSE&amp;#8482; solution using the PSoC&amp;#8482; 4000T device.</summary>
+    <prov_capabilities>low_power bsp_gen4 lptimer flash_64k msc_touchpad msclp mcu_gp psoc4 capsense serial_led cy8ckit_040t msc_proximity enclosure spi cat2 msc_button sram_8k led i2c</prov_capabilities>
+    <description>        &lt;div class=&quot;category&quot;&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;        &lt;li&gt;World's Most Reliable, Liquid Tolerant, Lowest Power CAPSENSE&amp;#8482; Solution&lt;/li&gt;        &lt;li&gt;On-board Programmer and Debugger&lt;/li&gt;        &lt;/ul&gt;&lt;p/&gt;        &lt;div class=&quot;category&quot;&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;        &lt;li&gt;CY8CKIT-040T PSoC&amp;#8482; 4000T CAPSENSE&amp;#8482; Evaluation Board with Enclosure&lt;/li&gt;     &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;    &lt;li&gt;Quick Start Guide&lt;/li&gt;        &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/evaluation-boards/cy8ckit-040t</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>0.6.0 release</num>
+        <commit>release-v0.6.0</commit>
+      </version>
+    </versions>
+  </board>
+</boards>
