@@ -187,6 +187,7 @@
         <commit>release-v1.0.1</commit>
       </version>
     </versions>
+  </app>
   <app keywords="psoc4,msclp,capsense,csd,touchpad,tuning,self-capacitance,mtb-flow">
     <name>MSCLP Self Capacitance Touchpad Tuning</name>
     <id>mtb-example-psoc4-msclp-self-capacitance-touchpad</id>
@@ -209,6 +210,5 @@
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
-  </app>
   </app>
 </apps>
